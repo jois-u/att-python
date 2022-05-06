@@ -1,0 +1,36 @@
+anoatual = 2022
+nome = input("Qual seu nome?")                               #Pergunta o nome
+anon = input("Qual o ano que você nasceu?")                  #Pergunta o ano que você nasceu
+somadosanos = int(anon) + int(anoatual)                      #Soma o ano que você nasceu+2022
+print("Olá, seu nome é:", nome)                              #Mostra seu nome
+print("E o seu ano de nascimento é:", anon)                  #Mostra o ano do seu nascimento
+print("Seu ano de nascimento+2022:" , somadosanos)           #Da o resultado do seu ano de nascimento+2022
+
+
+#Cálculo
+
+idade = int(input("\nQual a sua idade?"))                    #Pergunta a idade
+
+if idade >= 18:
+     print('Você é maior de idade')                          #Diz se você é maior de idade ou menor de idade
+else:
+     print('Você é menor de idade')
+     
+   
+   
+
+ad1 = int(input("\nDigite o primeiro número:"))    
+ad2 = int(input("Digite o segundo número:"))                  
+resultado = int(ad1) + int(ad2)                              #Faz a adição dos números
+print("O resultado da adição dos dois números é:", resultado)
+
+mult1 = int(input("\nDigite o primeiro número:"))
+mult2 = int(input("Digite o segundo número:"))
+resultado = int(mult1) * int(mult2)                          #Faz a multiplicação dos números
+print("O resultado da multiplicação dos dois números é:", resultado)
+
+
+div1 = int(input("\nDigite o primeiro número:"))
+div2 = int(input("Digite o segundo número:"))
+resultado = int(div1) / int(div2)                            #Faz a divisão dos números
+print("O resultado da divisão dos dois números é:", resultado)
